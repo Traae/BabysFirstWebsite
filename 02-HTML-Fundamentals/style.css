@@ -43,7 +43,7 @@ article header {
 }
 
 #foot p {
-  color: chartreuse;
+  color: #50ff00;
 }
 
 #foot #Copyright {
@@ -56,6 +56,16 @@ article header {
   font-size: smaller;
 }
 
-.related-posts ul {
+.related-posts {
   list-style: none;
+}
+
+aside {
+  border-top: 10px dashed lightcoral;
+  border-bottom: 10px dashed lightcoral;
+  background-color: #eee;
+}
+
+body {
+  background-color: #aaa;
 }
