@@ -69,3 +69,15 @@ aside {
 body {
   background-color: #aaa;
 }
+
+li::first-letter {
+  font-weight: bold;
+}
+
+li:nth-child(odd) {
+  color: white;
+}
+
+article p:last-child {
+  color: red;
+}
