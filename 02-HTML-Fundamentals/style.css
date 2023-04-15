@@ -81,3 +81,24 @@ li:nth-child(odd) {
 article p:last-child {
   color: red;
 }
+
+/* unvisited link */
+a:link {
+  color: #ff0000;
+  text-decoration: underline wavy orangered;
+}
+
+/* visited link */
+a:visited {
+  color: #00ff00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff00ff;
+}
+
+/* selected link */
+a:active {
+  color: #0000ff;
+}
