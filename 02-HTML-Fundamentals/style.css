@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainColor {
+  color: aqua;
+}
+
 h1 {
   color: rgb(14, 5, 138);
   text-align: center;
@@ -5,6 +14,14 @@ h1 {
   font-family: sans-serif;
   text-transform: uppercase;
   font-style: italic;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+li {
+  margin-left: 10px;
 }
 
 h1,
@@ -27,6 +44,11 @@ p {
 
 li {
   font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 /*
@@ -43,7 +65,7 @@ article header {
 }
 
 #foot p {
-  color: #50ff00;
+  color: #000000;
 }
 
 #foot #Copyright {
@@ -61,13 +83,13 @@ article header {
 }
 
 aside {
-  border-top: 10px dashed lightcoral;
-  border-bottom: 10px dashed lightcoral;
+  border-top: 10px dashed;
+  border-bottom: 10px dashed;
   background-color: #eee;
 }
 
 body {
-  background-color: #aaa;
+  background-color: #f8f8f8;
 }
 
 li::first-letter {
@@ -75,22 +97,22 @@ li::first-letter {
 }
 
 li:nth-child(odd) {
-  color: white;
+  color: rgb(51, 51, 51);
 }
 
 article p:last-child {
-  color: red;
+  /* color: red; */
 }
 
 /* unvisited link */
 a:link {
-  color: #ff0000;
-  text-decoration: underline wavy orangered;
+  color: #8400ff;
+  text-decoration: underline wavy black;
 }
 
 /* visited link */
 a:visited {
-  color: #00ff00;
+  color: #603e63;
 }
 
 /* mouse over link */
@@ -100,5 +122,5 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #0000ff;
+  color: #8400ff;
 }
