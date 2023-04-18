@@ -7,6 +7,12 @@
   color: aqua;
 }
 
+.center {
+  width: 720px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 h1 {
   color: rgb(14, 5, 138);
   text-align: center;
