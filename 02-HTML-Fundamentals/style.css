@@ -147,3 +147,7 @@ a:hover {
 a:active {
   color: #8400ff;
 }
+
+.author-img {
+  /* float: left; */
+}
